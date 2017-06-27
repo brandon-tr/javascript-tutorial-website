@@ -1,0 +1,45 @@
+*{
+  color: white;
+
+}
+html{
+  background-color: blue;
+}
+.header{
+  display: block;
+  border: 5px solid red;
+  background-color: red;
+  border-radius: 2%;
+}
+
+.sidebar{
+  margin-top: 3%;
+  display: inline;
+  background-color: #7faaef;
+  float:left;
+  border: 3px solid #7faaef;
+  border-radius: 2%;
+}
+
+.body{
+  margin-top: 3%;
+  display: inline;
+  background-color: black;
+  border: 3px solid black;
+  border-radius: 2%;
+  float:right;
+  width: 80%;
+  margin-right: 3%;
+}
+.footer{
+  background-color: grey;
+  border: 3px solid grey;
+  border-radius: 15px;
+  width:90%;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+.footer p{
+  font-size: 120%;
+}
